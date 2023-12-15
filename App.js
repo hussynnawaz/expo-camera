@@ -4,9 +4,9 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Assignment from './Pages/Assignment02/Assignment02';
-import TakePicture from './Pages/Assignment02/TakePicture';
-import ViewPicture from './Pages/Assignment02/ViewPicture';
+import Assignment from './pages/Assignment';
+import TakePicture from './pages/TakePicture';
+import ViewPicture from './pages/ViewPicture';
 
 const stack = createNativeStackNavigator();
 
